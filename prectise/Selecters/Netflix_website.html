@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix website</title>
+</head>
+<style>
+    div[class*=box] {
+        background-image: url(../image/netflix\ background.jpg);
+        background-size: cover;
+        height: 710px;
+        font-size: 30px;
+
+    }
+
+    h1,
+    p {
+
+        text-align: center;
+        color: white;
+    }
+
+    /* box {
+        background-color: orangered;
+
+    } */
+
+    .nav {
+
+        color: white;
+        font-size: large;
+        justify-content: space-between;
+
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        font-size: large;
+        justify-content: space-between;
+    }
+
+    tv {
+        background-color: black;
+        background-image: url(../image/tv\ \(1\).png);
+        background-position-x: right;
+        background-size: cover;
+    }
+
+    tv>h1 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-left: 30px;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <nav class="nav">
+            <img src="../image/logo.png" width="200px">
+            <div>
+                <select name="english" id="english">
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="Gujrati">Gujrati</option>
+                </select>
+                <button>sign in</button>
+            </div>
+            <div>
+        </nav>
+        <table>
+            <h1>Enjoy big movies, hit series and more from ₹ 149.</h1>
+            <p>Join today. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <br>
+    </div>
+    <div class="tv">
+        <h1>Enjoy on your TV</h1>
+        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        <td>
+            <img src="../image/tv (1).png">
+        </td>
+        </table>
+    </div>
+
+</body>
+
+</html>
