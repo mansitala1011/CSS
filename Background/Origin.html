@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>origin background</title>
+    <style>
+        .background {
+        border: 5px dashed red;
+        color: black;
+        background-image: url(../image/nature.png);
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        box-sizing: border-box;
+        background-size: cover;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* background-origin: border-box; */
+        /* background-origin: padding-box; */
+        background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolor praesentium eum, labore error quisquam, rerum pariatur iure voluptatum totam delectus aut cumque saepe quia assumenda quaerat nobis perspiciatis distinctio?
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet nostrum unde sequi officiis ex non laboriosam nam, aut magnam voluptate, fugiat explicabo reprehenderit maiores sapiente, voluptatem magni ut facilis! Modi!</p>
+    </div>
+</body>
+</html>
