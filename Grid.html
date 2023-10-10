@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            /* grid-template-rows: minmax(100px ,auto); */
+            grid-auto-rows: 300px;
+        }
+
+        .box-1 {
+            /* background: url(../html/images/nature-sunset-sea-waves.jpg)no-repeat center center/100% 100%; */
+            background-color: red;
+            grid-column: 1/5;
+            grid-row: 1/2;
+        }
+
+        .box-2 {
+            background-color: green;
+            /* background: url(../html/images/second\ image.jpg)no-repeat center center/100% 100%; */
+            grid-column: 5/7;
+            grid-row: 1/2;
+        }
+
+        .box-3 {
+            background-color: yellow;
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        .box-4 {
+            background-color: orange;
+            grid-column: 2/6;
+            grid-row: 2/3;
+        }
+
+        .box-5 {
+            background-color: crimson;
+            grid-column: 6/7;
+            grid-row: 2/3;
+        }
+
+        .box-6 {
+            background-color: darkcyan;
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+
+        .box-7 {
+            background-color: lawngreen;
+            grid-column: 4/7;
+            grid-row: 3/4;
+        }
+
+        .box-8 {
+            background-color: chocolate;
+            grid-column: 1/3;
+            grid-row: 4/5;
+        }
+
+        .box-9 {
+            background-color: navy;
+            grid-column: 3/5;
+            grid-row: 4/5;
+        }
+
+        .box-10 {
+            background-color: maroon;
+            grid-column: 5/7;
+            grid-row: 4/5;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box-1">box-1</div>
+        <div class="box-2">box-2</div>
+        <div class="box-3">box-3</div>
+        <div class="box-4">box-4</div>
+        <div class="box-5">box-5</div>
+        <div class="box-6">box-6</div>
+        <div class="box-7">box-7</div>
+        <div class="box-8">box-8</div>
+        <div class="box-9">box-9</div>
+        <div class="box-10">box-10</div>
+    </div>
+</body>
+</html>
